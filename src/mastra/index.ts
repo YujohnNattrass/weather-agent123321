@@ -23,6 +23,9 @@ export const mastra = new Mastra({
       enabled: true,
     },
   },
+  server: {
+    port: 3005, // default port is 3000
+  },
   bundler: {
     externals: ['difflib'],
   }
